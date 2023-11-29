@@ -485,6 +485,7 @@ certController:
 # -- Specifies `dnsOptions` to deployment
 dnsConfig: {}
 
+# -- Additional manifests to deploy within the chart.
 extraManifests: []
 # extraManifests:
 #  - apiVersion: external-secrets.io/v1beta1
